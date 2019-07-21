@@ -5,7 +5,7 @@
 
 The website was built using the following:
 
-    1. PHP framework Laravel <img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status">
+    1. PHP framework Laravel
     2. HTML
     3. CSS3 (+bootstrap 4)
     4. Jquery 3.4.1 (+DataTables plugin)
