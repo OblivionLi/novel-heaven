@@ -1,2 +1,24 @@
 # novel-heaven
  Reading Website
+ 
+ The project it's a fully working website.
+
+The website was built using the following:
+
+    1. PHP framework Laravel <img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status">
+    2. HTML
+    3. CSS3 (+bootstrap 4)
+    4. Jquery 3.4.1 (+DataTables plugin)
+
+Tools used for development:
+
+    1. IDE - PHPStorm
+    2. XAMPP v3.2.2
+    3. Git Bash
+    4. Laravel Telescope debug
+
+The project contains:
+
+    1. Authentication with roles and permissions
+    2. CRUD permissions for the records
+    3. Simple CMS for monitoring and administrating the website
