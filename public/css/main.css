@@ -1,0 +1,673 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.mainNavbar {
+    border-bottom: 1px solid #753434;
+}
+
+/** Main Navbar **/
+
+.linksContainer {
+    margin-left: 40px;
+}
+
+.navbar-brand {
+    color: #753434 !important;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    pointer-events:none;
+}
+
+.link {
+    border-left: 1px solid #753434;
+    padding: 0 35px !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #753434 !important;
+    font-size: 13px;
+}
+
+.navbar-light .navbar-nav .linkAbout {
+    font-size: 13px !important;
+    color: #e09b60 !important;
+}
+
+/** ============================================================= **/
+
+
+
+
+
+/** Authenticate **/
+
+li .auth {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+.authContainer {
+    margin-top: 20px;
+}
+
+li .authLoggedIn {
+    font-size: 17px !important;
+    font-weight: 600;
+    color: #753434 !important;
+}
+
+/** ============================================================= **/
+
+
+
+
+
+/** Disclaimers **/
+
+.disclaimerContent {
+    font-size: 18px;
+    color: #753434;
+}
+
+.disclaimerSpan {
+    text-decoration: underline;
+}
+
+/** ============================================================= **/
+
+
+
+
+
+/** About\Welcome page **/
+
+.aboutTitle {
+    font-size: 50px;
+    margin: 10px 0 50px 0;
+}
+
+.aboutContent  {
+    font-size: 23px;
+    color: #636b6f;
+}
+
+/** ============================================================= **/
+
+
+
+
+
+/** News page **/
+
+.mainContainer {
+    margin-top: 20px;
+}
+
+.newsTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.newsCredentials {
+    text-align: center;
+}
+
+.newsContent {
+
+}
+
+.newsBody {
+
+}
+
+.pre {
+    white-space: pre-wrap;
+    margin-top: -20px;
+    font-size: 23px;
+    color: #636b6f;
+}
+
+.userName {
+    font-size: 18px;
+    color: #753434;
+    font-weight: 600;
+}
+
+.card {
+    margin-bottom: 40px;
+    height: 400px;
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+.limitedN {
+    color: #753434;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.limitedP {
+    line-height:1.2em;
+    height:3.6em;
+    overflow:hidden;
+}
+
+.articleCreatedBy {
+    color: #e09b60 !important;
+    font-weight: 600;
+}
+
+.articlePostedAt {
+    color: #e09b60 !important;
+    font-weight: 600;
+}
+
+/** ============================================================= **/
+
+
+
+
+
+/** Likes **/
+
+.likesCount {
+    color: #753434;
+    font-weight: 400;
+}
+
+.likesHeart {
+    color: #753434;
+}
+
+a .likesHeart:hover {
+    text-decoration: none;
+}
+
+.likesHeart:hover {
+    text-underline: none;
+    color: #753434;
+}
+
+/** ============================================================= **/
+
+
+
+/** Crud Container **/
+
+.crudNews {
+    margin-top: 20px;
+}
+
+
+/** Novels **/
+
+/*.novelCover {*/
+/*    max-width: 200px;*/
+/*    max-height: 320px;*/
+/*}*/
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.filterOpt {
+    margin-right: 10px;
+
+}
+
+.filterLink {
+    color: #753434;
+    font-weight: 600;
+}
+
+.filterLink:hover {
+    color: #e09b60;
+}
+
+.filterLink:active {
+    color: #e09b60;
+}
+
+.tableLinks {
+    color: #e09b60;
+    font-weight: 600;
+}
+
+.tableLinks:hover {
+    color: #753434;
+}
+
+.tableLinks:active {
+    color: #753434;
+}
+
+.novelCover {
+    display: inline-block;
+    width: 20%;
+}
+
+.novelCover img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+    padding: 0 0 0 2%;
+}
+
+.novel {
+    margin: 7px;
+    border-bottom: #753434 1px solid;
+}
+
+.novel:last-child { border-bottom: none; }
+
+.novelName {
+    font-size: 25px;
+}
+
+
+.novelName a{
+    font-size: 30px;
+    color: #753434;
+    font-weight: 600;
+}
+
+a.novelName:hover {
+    color: #753434;
+}
+
+.novelDet {
+    color: #753434;
+    font-weight: 600;
+}
+
+.novelDetails {
+    font-weight: 600;
+}
+
+.desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 80px;      /* fallback */
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-weight: 600;
+}
+
+.normalDesc {
+    font-weight: 600;
+}
+
+.searchBar {
+    border: 1px solid #753434;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+
+/** ============================================================= **/
+
+
+
+/** Chapters Section **/
+
+.novelChapters {
+    border-top: 1px #753434 solid;
+}
+
+.novelChapters ul {
+    margin-top: 10px;
+}
+
+.novelChapters li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.novelChapters a {
+    color: #753434;
+    font-weight: 600;
+}
+
+.chapterError {
+    color: #753434;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.novelChaptersContent a {
+    color: #753434;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.novelChaptersContent {
+    border-top: #753434 1px solid;
+    margin: 7px;
+}
+
+.chapterBtn {
+    width: 100px;
+}
+
+.editTitle {
+    color: #753434;
+}
+
+
+/** ============================================================= **/
+
+
+/* Contact Section */
+
+
+
+.contactp {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contactWord {
+    font-weight: 600;
+    font-size: 20px;
+    color: #753434;
+}
+
+.contactBtn {
+    width: 100%;
+}
+
+
+
+
+
+/** ============================================================= **/
+
+
+
+
+
+@media (min-width: 991.98px) {
+    .novelDescriptionSmall {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .novelDescriptionBig {
+        display: none;
+    }
+
+    .searchBar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .filterNav {
+        text-align: center;
+        margin-left: -15px;
+    }
+
+    .chapterBtn {
+        width: 100%;
+        margin: 7px 0 7px 0;
+    }
+
+    .chapterBtnO {
+        width: 100%;
+    }
+
+    .editTitleSection {
+        font-size: 25px;
+    }
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #753434;
+    opacity: 1; /* Firefox */
+    font-weight: 400;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #753434;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #753434;
+}
+
+
+.btn-outline-success {
+    color: #753434;
+    border-color: #753434;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #753434;
+    border-color: #753434;
+}
+
+.btn-outline-success:focus,
+.btn-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem #753434;
+}
+
+.btn-outline-success.disabled,
+.btn-outline-success:disabled {
+    color: #753434;
+    background-color: transparent;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #753434;
+    border-color: #753434;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #753434;
+}
+
+
+/* CMS */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a, .sidenavUserName, .sidenavUserRole {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #753434;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #e09b60;
+}
+
+.sidenav a:active {
+    color: #e09b60;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.cmsTitle {
+    font-size: 50px;
+
+}
+
+.cmsMenu {
+    font-size:30px;
+    cursor:pointer;
+    color: #753434;
+}
+
+.cmsCardTitle {
+    color: #e09b60;
+    font-weight: 600;
+    border-bottom: 1px solid #753434;
+    padding-bottom: 8px;
+}
+
+.tableTdLimitTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.tableLink {
+    font-weight: 600;
+    color: #753434;
+}
+
+.tableLink:hover {
+    color: #e09b60;
+}
+
+.crudAddBut {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #753434;
+}
+
+.crudAddBut:hover {
+    color: #e09b60;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Forms */
+
+.formBtn {
+    width: 100%;
+}
+
+option {
+    color: #753434;
+}
+
+/* test */
+
+.tab-0-active {
+    color: #e09b60;
+}
+
+.tab-0-active:hover {
+    color: #e09b60;
+    text-decoration: none;
+}
+
+.searchBarC {
+    text-align: center;
+    width: 50%;
+    border: 1px solid #753434;
+    margin: 0 auto;
+}
+
+.aTitle {
+    font-size: 25px;
+}
+
+
+.aTitle a{
+    font-size: 30px;
+    color: #753434;
+    font-weight: 600;
+}
+
+a.aTitle:hover {
+    color: #753434;
+}
+
+.trHeading {
+    color: #753434;
+    border-bottom: 1px solid #753434;
+}
+
+.deleteBut {
+    background:none;
+    border:none;
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/
+    cursor: pointer;
+    font-weight: 600;
+    color: #753434;
+}
+
+.deleteBut:hover {
+    text-decoration: underline;
+    text-decoration-color: #e09b60;
+}
+
+.cmsCardTitle {
+    margin-bottom: 10px;
+}
