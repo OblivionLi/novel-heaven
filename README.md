@@ -1,8 +1,6 @@
 # novel-heaven
  Reading Website
  
- The project it's a fully working website.
-
 The website was built using the following:
 
     1. PHP framework Laravel
