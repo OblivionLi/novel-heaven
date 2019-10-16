@@ -1,39 +1,3 @@
-/*function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-}*/
-
-/*document.getElementById('tab-0').addEventListener('click', function () {
-
-    document.querySelector('#tab-0').classList.add('tab-0-active');
-    document.querySelector('#tab-1').classList.remove('tab-0-active');
-    document.querySelector('#tab-2').classList.remove('tab-0-active');
-
-});
-
-
-document.getElementById('tab-1').addEventListener('click', function () {
-
-    document.querySelector('#tab-1').classList.add('tab-0-active');
-    document.querySelector('#tab-2').classList.remove('tab-0-active');
-    document.querySelector('#tab-0').classList.remove('tab-0-active');
-
-});
-
-document.getElementById('tab-2').addEventListener('click', function () {
-
-    document.querySelector('#tab-2').classList.add('tab-0-active');
-    document.querySelector('#tab-0').classList.remove('tab-0-active');
-    document.querySelector('#tab-1').classList.remove('tab-0-active');
-
-});*/
-
-
 $(document).ready( function () {
     $('#novelCMSTD').DataTable();
 } );
@@ -76,5 +40,23 @@ $(document).ready( function () {
     } );
 } );
 
+$(document).ready(function(){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
+        }
+    });
+    // scroll body to 0px on click
+    $('#back-to-top').click(function () {
+        $('#back-to-top').tooltip('hide');
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
 
+    $('#back-to-top').tooltip('show');
 
+});
