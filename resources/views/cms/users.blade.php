@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="row shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="userContainer row shadow-lg p-3 mb-5 bg-white rounded">
             <div class="col-lg">
                 <div class="cmsCardTitle text-center">
                     User Notifications
