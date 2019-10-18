@@ -43,6 +43,7 @@
                     will discuss between our team and decide if your idea should be implemented or not.
                     Also, have fun and a good reading !
                 </p>
+                <small class="disclaimerSpan">Registered users: {{ count($user) }}</small>
             </div>
         </div>
     </div>
