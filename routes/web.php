@@ -10,9 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\User;
 
 Route::get('/', function () {
-    return view('main.welcome');
+
+    $user = User::all();
+
+    return view('main.welcome', compact('user'));
 });
 
 Route::get('/contact', 'HomeController@contact');
