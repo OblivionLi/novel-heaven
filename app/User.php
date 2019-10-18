@@ -84,10 +84,22 @@ class User extends Authenticatable
         return false;
     }
 
+    
+    public function isModerator()
+    {
+        foreach ($this->roles()->get() as $role) {
+            if ($role->name == 'administrator') {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public function isStaff()
     {
         foreach ($this->roles()->get() as $role) {
-            if ($role->name == 'administrator' || $role->name == 'moderator') {
+            if ($role->name == 'administrator' || $role->name == 'moderator' || $role->name == 'editor') {
                 return true;
             }
         }
