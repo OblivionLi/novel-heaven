@@ -705,3 +705,21 @@ a.aTitle:hover {
     background-color: #753434;
     border-color: #753434;
 }
+
+.divider {
+    margin: 0 10px 0 10px;
+}
+
+.novelContainer .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #753434;
+    border-color: #753434;
+}
+
+.userContainer .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #753434;
+    border-color: #753434;
+}
