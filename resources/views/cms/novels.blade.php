@@ -57,11 +57,14 @@
                                 </td>
                                 <td>
                                     <a href="/novels/{{ $novels->slug  }}/edit" class="tableLink">Edit</a>
-                                    <form action="/novels/{{ $novels->slug  }}" method="post">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button class="tableLink deleteBut">Delete</button>
-                                    </form>
+                                    @if(Auth::user()->isAdmin() || Auth::user()->isModerator())
+                                        <form action="/novels/{{ $novels->slug  }}" method="post">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button class="tableLink deleteBut">Delete</button>
+                                        </form>
+                                    @endif
+                                    <span class="divider"></span>
                                     <a href="/novels/{{ $novels->slug }}/chapter/create" class="tableLink">Add
                                         Chapter</a>
                                 </td>
