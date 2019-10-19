@@ -23,5 +23,5 @@ The project contains:
 
        
     
-Video presentation:
+Video presentation:  
 [![Project Presentation](http://img.youtube.com/vi/0546ZKDntCA/0.jpg)](http://www.youtube.com/watch?v=0546ZKDntCA)
