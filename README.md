@@ -20,3 +20,8 @@ The project contains:
     1. Authentication with roles and permissions
     2. CRUD permissions for the records
     3. Simple CMS for monitoring and administrating the website
+
+       
+    
+Video presentation:
+[![Project Presentation](http://img.youtube.com/vi/0546ZKDntCA/0.jpg)](http://www.youtube.com/watch?v=0546ZKDntCA)
