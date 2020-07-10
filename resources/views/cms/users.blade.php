@@ -55,17 +55,16 @@
                                     ({{ date('M.Y', strtotime($users->updated_at)) }})
                                 </td>
                                 <td>
-                                    @if(Auth::user()->isModerator())
+                                    @if(Auth::user()->isAdmin())
                                         @if($users->isAdmin())
                                             <p>You can't edit an administrator.</p>
                                         @else
                                             <a href="{{ route('users.edit', $users->id) }}" class="tableLink">Edit</a>
-                                            {{-- <form action="{{ route('users.delete', $users->id) }}" method="post">
+                                            <form action="{{ route('users.delete', $users->id) }}" method="post">
                                                  @csrf
                                                  @method('DELETE')
                                                  <button class="tableLink deleteBut">Delete</button>
-                                             </form>--}}
-
+                                             </form>
                                         @endif
                                     @else
                                         <p>You don't have permission to access this.</p>
