@@ -69,9 +69,9 @@ class UserController extends Controller
      */
     public function destroy(User $user)
     {
-        $user->roles()->delete();
+        $user->roles()->detach();
         $user->delete();
 
-        return view('/cms/users')->with('success', 'User deleted successfully.');
+        return redirect('/cms/users')->with('success', 'User deleted successfully.');
     }
 }
