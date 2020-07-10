@@ -91,7 +91,7 @@ Route::get('/cms/users/{user}', ['as' => 'users.edit', 'uses' => 'UserController
 
 Route::patch('/cms/users/{user}/update', ['as' => 'users.update', 'uses' => 'UserController@update'])->middleware('crudAuthStaff');
 
-Route::delete('/cms/users/{user}', ['as' => 'users.delete', 'uses' => 'UserController@destroy'])->middleware('crudAuthStaff');
+Route::delete('/cms/users/{user}/delete', ['as' => 'users.delete', 'uses' => 'UserController@destroy'])->middleware('crudAuthStaff');
 
 
 
